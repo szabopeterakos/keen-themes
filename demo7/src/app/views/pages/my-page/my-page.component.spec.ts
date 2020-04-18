@@ -16,7 +16,7 @@ describe('MyPageComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(MyPageComponent);
     component = fixture.componentInstance;
-    fixture.markForCheck();
+    fixture.detectChanges();
   });
 
   it('should create', () => {

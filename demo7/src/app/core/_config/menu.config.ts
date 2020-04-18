@@ -388,6 +388,14 @@ export class MenuConfig {
 					bullet: 'dot',
 				},
 				{
+					title: 'My Page', // <= Title of the page
+					desc: 'Some my description goes here', // <= Description of the page
+					root: true,
+					page: '/my-page', // <= URL
+					icon: 'flaticon-line-graph' // <= Choose the icon class
+				   },
+				   {section: 'Components'},
+				{
 					title: 'Layout Builder',
 					root: true,
 					icon: 'flaticon2-expand',

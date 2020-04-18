@@ -45,7 +45,8 @@
             ],
 		  	"stylePreprocessorOptions": {
 			  "includePaths": [
-				  "src/assets"
+				  "src/assets",
+				  "src/sass"
 			  ]
 		  	},
             "es5BrowserSupport": true

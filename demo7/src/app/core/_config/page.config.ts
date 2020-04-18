@@ -6,6 +6,9 @@ export class PageConfig {
 				desc: 'Latest updates and statistic charts'
 			},
 		},
+		'my-page': { // <= add page URL
+            page: { title: 'My page', desc: 'My page desc' } // <= Page name and description
+        },
 		ngbootstrap: {
 			accordion: {
 				page: {title: 'Accordion', desc: ''}
